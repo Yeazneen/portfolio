@@ -1,0 +1,12 @@
+.navItem{
+    display: flex;
+    justify-content: right;
+}
+
+
+#github{
+    height: 7px;
+    width:7px;
+    display: flex;
+    justify-content: left;
+}

@@ -1,0 +1,48 @@
+.main-section{
+    margin:300px
+}
+
+#first-section {
+    text-align: center; 
+}
+
+.name {
+    font-family: 'Montez', cursive; 
+    font-size: 45px;
+    color: #7B7C88
+}
+
+.job-position{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+
+.navbar{
+    margin-right: 40px ;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.navItem{
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+    font-size: 25px;
+}
+
+.itemName{
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+    
+}
+
+.itemName a {
+    text-decoration: none;
+    color:cadetblue;
+}
+
+.itemName:hover{
+    background-color: pink; 
+}
+
