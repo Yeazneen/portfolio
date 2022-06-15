@@ -5,8 +5,13 @@
 
 
 #github{
-    height: 7px;
-    width:7px;
+    height: 10px;
+    width:10px;
+    
+}
+
+#githubLink{
     display: flex;
     justify-content: left;
+    align-items:left;
 }
