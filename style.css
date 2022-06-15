@@ -1,48 +1,130 @@
-.main-section{
-    margin:300px
-}
-
-.first-section {
-    text-align: center; 
-}
-
-.name {
-    font-family: 'Montez', cursive; 
-    font-size: 45px;
-    color: #7B7C88
-}
-
-.job-position{
-    font-family: 'Indie Flower', cursive;
-    font-size: 18px;
-}
-
-.navbar{
-    margin-right: 40px ;
-    font-family: 'Shadows Into Light', cursive;
-}
-
-.navItem{
-    display: flex;
-    list-style-type: none;
-    justify-content:center;
-    font-size: 25px;
-}
-
-.itemName{
-    padding: 10px;
-    display: flex;
-    list-style-type: none;
-    justify-content:center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Shadows Into Light, cursive;
+    list-style: none;
+    text-decoration:none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+  }
+  
+  /*body{
+      margin: 300px;
+  }*/
+  
+  section{
+    padding:  120px 15%;
+  }
+  
+  .home{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
     
-}
-
-.itemName a {
-    text-decoration: none;
-    color:cadetblue;
-}
-
-.itemName:hover{
-    background-color: pink; 
-}
-
+  }
+  
+  
+  .first-section {
+      text-align: center; 
+  }
+  
+  #name {
+      font-family: 'Montez', cursive; 
+      font-size: 45px;
+      color: #7B7C88
+  }
+  
+  #job-position{
+      font-family: 'Indie Flower', cursive;
+      font-size: 18px;
+  }
+  
+  .navbar{
+      margin-right: 50px ;
+      font-family: 'Shadows Into Light', cursive;
+  }
+  
+  .navList{
+      display: flex;
+      list-style-type: none;
+      justify-content:center;
+      font-size: 25px;
+      margin-left : 45px ;
+  }
+  
+  .navList li{
+      padding: 15px;
+      display: flex;
+      list-style-type: none;
+      justify-content:center; 
+      
+  }
+  
+  .navList , button, a {
+      text-decoration: none;
+      color:cadetblue;
+      border-style: none;
+      background: none;
+  }
+  
+  .navList li:hover{
+      background-color: pink; 
+  }
+  
+  .about{
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 2rem;
+  }
+  
+  .about-img img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-text h2{
+    font-size: 4.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-text h5{
+    font-size: 28px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .about-text p{
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 28px;
+    max-width: 590px;
+    font-size: 1.1rem; 
+    margin-bottom: 45px;
+  } 
+  
+  .btn{
+    display: inline-blocks;
+    background: red;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 13px 30px;
+    transition: ease .35s;
+  }
+  
+  .btn:hover{
+    transform: translateY(-8px);
+    border: 2px solid  red;
+    background: transparent;
+  }
